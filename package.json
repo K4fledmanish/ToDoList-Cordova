@@ -31,5 +31,8 @@
       "android",
       "ios"
     ]
+  },
+  "dependencies": {
+    "ios-deploy": "^1.11.3"
   }
 }
