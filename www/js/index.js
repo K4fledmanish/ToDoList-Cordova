@@ -37,7 +37,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("Can you please write something!");
+    alert("Empty Field !!");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
